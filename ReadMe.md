@@ -2,7 +2,7 @@
 Docs 7-9-24 V1 (For questions or comments:  Stephen Witty switty@level500.com)  
 
 ### Project Overview:
-This project seeks to measure the ability of ChatGPT-4o to play Blackjack by image only.  GPT acts as the player with a standard dealer simulated by the program.  The card playing field is dyamically built and a single image is submitted to GPT.  GPT not only has to determine the card values in the image, but also must understand the rules of Blackjack without instruction.    Statistics are kept over many Blackjack games.  Sample results can be found in the below presentation along with a video with a sample execution.
+This project seeks to measure the ability of ChatGPT-4o to play Blackjack by image only.  GPT acts as the player with a standard dealer simulated by the program.  The card playing field is dynamically built and a single image is submitted to GPT.  GPT not only has to determine the card values in the image but also must understand the rules of Blackjack without instruction.    Statistics are kept over many Blackjack games.  Sample results can be found in the below presentation along with a video with a sample execution.
   
 
 <img src="Pics/Playing cards.png" width="800">
