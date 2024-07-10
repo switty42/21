@@ -10,6 +10,7 @@
 #     install package feh
 #
 # V1 7-7-24   Initial development
+# V2 7-9-24   Correct typo in GPT prompt
 
 import random
 import time
@@ -21,11 +22,11 @@ import subprocess
 import re
 
 # OpenAI API Key
-api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXX"
+api_key = "XXXXXXXXXXXXXXX"
 
 ##################### Constants ###########################################################################################
-VERSION = 1                                             # Version of code
-GAMES = 100                                             # Number of times to run the test
+VERSION = 2                                             # Version of code
+GAMES = 10                                              # Number of times to run the test
 CARD_DIR = "/home/switty/Dev/Blackjack/Cards"           # Picture directory  location fully pathed, do not include / on the end
 CARD_TEMP = "/home/switty/Dev/Blackjack/temp"           # Temp folder to create card pictures, do not include / on the end
 DELAY = 20                                              # Delay time per test run to display results in seconds
@@ -212,7 +213,7 @@ def gpt_card():
                "content": [
                   {
                      "type": "text",
-                     "text": "You are an expert blackjack player.  You are playing blackjack.  The game has already started.  In the supplied image, the top cards are the house dealers and the bottom cards are yours.  Your goal is to win the game by making the best decision.  Do you want to be dealt another card?   Provide back the answer as YES or NO between {}.  For example if the answer is YES then reply back with {YES}.  Also lists the cards in your hand and the dealer's hand"
+                     "text": "You are an expert blackjack player.  You are playing blackjack.  The game has already started.  In the supplied image, the top cards are the house dealer's and the bottom cards are yours.  Your goal is to win the game by making the best decision.  Do you want to be dealt another card?   Provide back the answer as YES or NO between {}.  For example, if the answer is YES then reply back with {YES}.  Also, list the cards in your hand and the dealer's hand."
                   },
                   {
                      "type": "image_url",
