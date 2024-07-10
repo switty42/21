@@ -22,4 +22,4 @@ This project seeks to measure the ability of ChatGPT-4o to play Blackjack by ima
 - Place your own OpenAI API key toward the top of the Python script
 - Edit the program constants as needed at the top of the Python script
 - Copy source card photos into CARD_DIR (find sample photos in this repository)
-- Define a CARD_TEMP folder and adjust program constant.  Folder contents wil be deleted
+- Define a CARD_TEMP folder and adjust the program constant.  Folder contents will be deleted
