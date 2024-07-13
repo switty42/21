@@ -12,6 +12,9 @@ This project seeks to measure the ability of ChatGPT-4o to play Blackjack by ima
 - [Presentation Link](https://github.com/switty42/21/blob/main/Presentations/Blackjack_070924.pdf)
 - Example run recorded:
 - [Video](https://youtu.be/eIN1_vbvNeE)
+- A live presentation at NWA AI Meeetup
+- [Meetup Video](https://youtu.be/iZ4p_z3oKnI)
+
 
 ### Usage:
 
